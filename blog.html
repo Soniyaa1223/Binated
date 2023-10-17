@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog</title>
+    <style>
+        
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        form {
+            margin: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Blog</h1>
+
+    <h2>Binated</h2>
+    <table>
+        <tr>
+            <th>our blog</th>
+            <th>Blog 2</th>
+        </tr>
+    </table>
+
+    <h2>Your Details </h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" class="button" value="Submit">
+    </form>
+
+    <h2>Actions</h2>
+    <button class="button">login</button>
+    <button class="button">Signup </button>
+</body>
+</html>
